@@ -15,10 +15,7 @@ public class Main
         Rezult rezult = new Rezult();
         Main prov1 = new Main();
 
-        int x = perem1.getXY();
-        char h = perem2.getHU();
-        int y = perem3.getYX();
-        rezult.setRezult(x , h , y);
+        // вычисление результата будет произведено после ввода всех данных
 
 
         while (true) {
@@ -41,5 +38,10 @@ public class Main
                 break;
             }
         }
+
+        int x = perem1.getXY();
+        char h = perem2.getHU();
+        int y = perem3.getYX();
+        rezult.setRezult(x, h, y);
     }
 }
